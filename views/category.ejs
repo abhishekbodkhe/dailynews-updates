@@ -11,10 +11,10 @@
 
                 <% if ((typeof article.url=='object') || (typeof article.title=='object') || (typeof article.urlToImage=='object') || (typeof article.content=='object')){ %>
                     <% } else{ %>
-                        <a href="<%- article.url %>" target="_blank" class="news-box Hover-effect">
+                        <a href="<%- article.url %>" target="_blank" class="news-box Hover-effect" >
 
                             <img src="<%- article.urlToImage %>" alt="Image">
-                            <h3>
+                            <h3 style="margin-top: 15px; " >
                                 <%- article.title %>
                             </h3>
 
@@ -23,7 +23,7 @@
                                 <%- article.content.replace(/<[^>]+>/g, '') %>
                             </p>
                             <br>
-                            <p style="margin-bottom: 0px; position: absolute; right: 0; bottom: 0; font-family: ui-monospace;">Updated: <span style="color:red;" ><%- new Date(article.publishedAt.slice(0,10)).toDateString() %>    <%- moment.utc(article.publishedAt).local().format('hh : mm A') %> </span></p>
+                            <p style="margin-bottom: 5px; position: absolute; right: 3px; bottom: 0; font-family: ui-monospace;">Updated: <span style="color:rgb(224, 117, 17);" ><%- new Date(article.publishedAt.slice(0,10)).toDateString() %>    <%- moment.utc(article.publishedAt).local().format('hh : mm A') %> </span></p>
 
 
                         </a>

@@ -37,12 +37,19 @@ h2{
 
 }
 .news-box{
-    transition: all 0.3s ;
+    transition: all 0.3s ; 
     text-decoration: none;
     color: rgb(29, 25, 25);
 
     background-color: white;
     padding: 20px;
+    /* position: relative;
+    border-radius: 16px;
+    box-shadow: 2px;
+    background: #5a4d4d;
+    transform-origin: center;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden; */ 
 }
 
 .news-box:hover{
@@ -84,7 +91,7 @@ h2{
 }body{
     margin: 0;
     font-family: sans-serif;
-    background-color: rgba(245, 238, 238, 0.89);
+    background-color: #0f0f0e;
 }
 nav{
     margin-bottom: 40px;
@@ -116,6 +123,7 @@ h2{
 .news{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    /* grid-template-rows: repeat(auto-fill,minmax(300px,1fr)); */
     grid-gap: 2rem;
 
 }
@@ -124,8 +132,9 @@ h2{
     text-decoration: none;
     color: rgb(29, 25, 25);
 
-    background-color: white;
-    padding: 20px;
+    background-color: rgb(227, 233, 232);
+    border-radius: 15px;
+
 }
 
 .news-box:hover{
