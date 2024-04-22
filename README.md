@@ -2,7 +2,7 @@
 
 Node.js project using express, ejs where we fetch the news data from news api.
 
-<img src="https://github.com/abhishekbodkhe/dailynews-updates/blob/main/screenshot.jpg?raw=true" alt="GitHub Logo" style="max-width: 100%;">
+<img src="https://github.com/abhishekbodkhe/dailynews-updates/blob/main/news web.jpg?raw=true" alt="GitHub Logo" style="max-width: 100%;">
 
 <a href="https://abhishek-dailynews-updates.onrender.com/">Have a look on website upload on render</a>
 
